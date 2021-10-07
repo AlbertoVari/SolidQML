@@ -205,7 +205,7 @@ for epoch in range(epochs):
         100. * (epoch + 1) / epochs, loss_list[-1]))
 
 
-Wplt.plot(loss_list)
+plt.plot(loss_list)
 plt.title('Hybrid NN Training Convergence')
 plt.xlabel('Training Iterations')
 plt.ylabel('Neg Log Likelihood Loss')
